@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    /*标签选择器*/
+    h1{
+        color: red;
+    }
+    /*类选择器：
+     在标签中添加一个class属性，在给属性赋值，注意值不能式数字开头
+
+    */
+    .h2{
+        color: red;
+    }
+    /*id选择器：、
+    一个html中，id值式唯一的
+        在标签中添加一个id属性，在给属性赋值，注意值不能式数字开头
+        选择器的优先级：
+        id>class>标签
+    */
+       #h3{
+           color: red;
+       }
+
+</style>
+<body>
+<h1>等级标题一</h1>
+<h2 class="h2">等级2</h2>
+<h2 class="h2">等级2</h2>
+<h3 id="h3">等级3</h3>
+<h3 class="a" id="h">等级3</h3>
+
+</body>
+</html>
